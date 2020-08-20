@@ -3,13 +3,8 @@ package kg.asel.homework.DZ5;
 public class Boss {
     private int helthBoss;
     private int damageBoss;
-    private String protectTypeBoss;
+    private String defenseTypeBoss;
 
-    /*public Boss(int helthBoss, int damageBoss, String protectTypeBoss) {
-        this.helthBoss = helthBoss;
-        this.damageBoss = damageBoss;
-        this.protectTypeBoss = protectTypeBoss;
-    }*/
 
     public int getHelthBoss() {
         return helthBoss;
@@ -19,8 +14,8 @@ public class Boss {
         return damageBoss;
     }
 
-    public String getProtectTypeBoss() {
-        return protectTypeBoss;
+    public String getDefenseTypeBoss() {
+        return defenseTypeBoss;
     }
 
     public void setHelthBoss(int helthBoss) {
@@ -31,7 +26,7 @@ public class Boss {
         this.damageBoss = damageBoss;
     }
 
-    public void setProtectTypeBoss(String protectTypeBoss) {
-        this.protectTypeBoss = protectTypeBoss;
+    public void setDefenseTypeBoss(String defenseTypeBoss) {
+        this.defenseTypeBoss = defenseTypeBoss;
     }
 }

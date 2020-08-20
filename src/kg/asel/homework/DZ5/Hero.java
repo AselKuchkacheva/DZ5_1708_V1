@@ -1,14 +1,15 @@
 package kg.asel.homework.DZ5;
 
-public class Hero {
+public class Hero  {
   private int healthHero;
   private int damageHero;
-  private String superpowerHero;
+  private String superDefenseHero;
 
-  public Hero(int healthHero, int damageHero, String superpowerHero) {
+
+  public Hero (int healthHero, int damageHero, String superDefenseHero) {
     this.healthHero = healthHero;
     this.damageHero = damageHero;
-    this.superpowerHero = superpowerHero;
+    this.superDefenseHero = superDefenseHero;
   }
 
   public Hero(int healthHero, int damageHero) {
@@ -16,17 +17,6 @@ public class Hero {
     this.damageHero = damageHero;
   }
 
-  public int getHealthHero() {
-    return healthHero;
-  }
-
-  public int getDamageHero() {
-    return damageHero;
-  }
-
-  public String getSuperpowerHero() {
-    return superpowerHero;
-  }
 
   public void setHealthHero(int healthHero) {
     this.healthHero = healthHero;
@@ -36,7 +26,22 @@ public class Hero {
     this.damageHero = damageHero;
   }
 
-  public void setSuperpowerHero(String superpowerHero) {
-    this.superpowerHero = superpowerHero;
+  public void setSuperDefenseHero(String superDefenseHero) {
+    this.superDefenseHero = superDefenseHero;
   }
+
+  public int getHealthHero() {
+
+    return healthHero;
+  }
+
+  public int getDamageHero() {
+
+    return damageHero;
+  }
+
+  public String getSuperDefenseHero() {
+    return superDefenseHero;
+  }
+
 }
